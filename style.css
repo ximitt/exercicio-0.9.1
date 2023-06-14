@@ -1,0 +1,184 @@
+:root {
+
+    --flex: flex;
+    --preto: black;
+    --branco: white;
+    --centro: center;
+    --enviada: rgb(34, 155, 81);
+    --recebida: rgb(66, 85, 102);
+
+}
+
+body {
+
+    display: var(--flex);
+    justify-content: var(--centro);
+    align-items: var(--centro);
+
+}
+
+html,
+body {
+
+    height: 100%;
+
+}
+
+.pontinhos {
+
+    fill: var(--branco);
+    border: none;
+    background-color: var(--preto);
+    height: 10px;
+
+}
+
+h1 {
+
+    color: var(--branco);
+
+}
+
+.container2 {
+
+    display: var(--flex);
+    justify-content: space-between;
+    align-items: var(--centro);
+    font-family: ubuntu;
+
+}
+
+hr {
+
+    border: 1px dotted;
+    color: var(--branco);
+
+}
+
+div {
+
+    display: block;
+    font-family: ubuntu;
+}
+
+p {
+
+    padding-right: 2px;
+
+}
+
+.msg {
+
+    display: var(--flex);
+    align-items: var(--centro);
+    text-align: var(--centro);
+    color: var(--branco);
+    border-radius: 12px;
+    background-color: var(--recebida);
+    justify-content: space-between;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 8px;
+
+}
+
+.checks {
+
+    display: var(--flex);
+    margin-top: auto;
+    padding-bottom: 5px;
+    padding-inline-start: inherit;
+    position: relative;
+
+}
+
+.naolida {
+
+    fill: #aaaeb1;
+
+}
+
+.lida {
+
+    fill: #3da8eb;
+
+}
+
+.container {
+
+    background-color: var(--preto);
+    width: 480px;
+    height: 480px;
+    border: 2px var(--preto) solid;
+    border-radius: 10px;
+    padding: 25px;
+    position: relative;
+
+}
+
+.enviada {
+
+    margin-left: auto;
+    background-color: var(--enviada);
+
+}
+
+.seta1 {
+
+    margin-left: 26px;
+
+}
+
+.seta2 {
+
+    margin-left: 160px;
+
+}
+
+.seta1,
+.seta2 {
+
+    background-color: var(--recebida);
+    border: none;
+    fill: var(--recebida);
+    margin-bottom: 26px;
+    position: absolute;
+
+}
+
+.seta1:hover,
+.seta2:hover {
+
+    fill: var(--branco);
+
+}
+
+.seta3 {
+
+    margin-right: -29px;
+
+}
+
+.seta4 {
+
+    margin-right: -28px;
+
+}
+
+.seta3,
+.seta4 {
+
+    fill: var(--enviada);
+    background-color: var(--enviada);
+    border: none;
+    margin-bottom: 27px;
+
+}
+
+.seta3:hover,
+.seta4:hover {
+
+    fill: var(--branco);
+
+}
